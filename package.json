@@ -1,0 +1,62 @@
+{
+  "name": "modern_web_arch_fed",
+  "version": "1.0.0",
+  "description": "Front-End application created using Angular2",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "npm run compile && concurrently  \"gulp watch\" \"npm run lite\" ",
+    "compile": "gulp build",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "@angular/upgrade": "2.0.0",
+    "angular2-in-memory-web-api": "0.0.20",
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.1",
+    "hapi": "^15.0.3",
+    "inert": "^4.0.2",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.27",
+    "zone.js": "^0.6.23"
+  },
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^6.1.1",
+    "gulp-typescript": "^2.13.6",
+    "gulp-uglify": "^2.0.0",
+    "lite-server": "^2.2.2",
+    "run-sequence": "^1.2.2",
+    "systemjs-builder": "^0.15.31",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.2",
+    "typings": "^1.3.2"
+  },
+  "keywords": [
+    "Angular2",
+    "SASS",
+    "Gulp",
+    "TypScript",
+    "Karma"
+  ],
+  "author": "FED Team",
+  "license": "ISC"
+}

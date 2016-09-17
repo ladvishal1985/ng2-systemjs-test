@@ -1,0 +1,6 @@
+.idea
+build
+node_modules
+typings
+client/lib
+client/app/js
